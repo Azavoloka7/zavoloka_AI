@@ -1,7 +1,7 @@
 # Import necessary libraries
 import numpy as np
-from model import build_model
-from train import train_model
+from models.model import build_model
+from models.train import train_modell
 from dataset_utils import load_npz
 import matplotlib.pyplot as plt
 
